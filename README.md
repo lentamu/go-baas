@@ -15,7 +15,7 @@ curl -X POST "http://localhost:8080/hash" \
 **Verify:**
 
 ```bash
-curl -X POST "http://localhost:8081/verify" \
+curl -X POST "http://localhost:8080/verify" \
      -H "Content-Type: application/x-www-form-urlencoded" \
      -d "raw=<password>&hash=<hash>"
 ```
